@@ -2,7 +2,7 @@ import React from "react";
 
 function HomePage() {
   return (
-    <main className="flex flex-col items-center justify-center px-4 py-10 text-center">
+    <main className="flex flex-col items-center justify-start min-h-screen px-4 py-10 text-center">
       <h1 className="text-4xl font-bold mb-4">School Fee Recovery Assistant</h1>
       <p className="text-lg max-w-2xl mb-8">
         Practical help for school business managers dealing with overdue fees. Based on real-world experience, not theory.
