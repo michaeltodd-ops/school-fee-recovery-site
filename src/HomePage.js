@@ -78,6 +78,7 @@ function HomePage() {
           </Link>
         </div>
       </section>
+              CLICK HERE – TEST LINK
     </main>
   );
 }
