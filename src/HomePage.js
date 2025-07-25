@@ -11,16 +11,16 @@ function HomePage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
         <Link to="/strategies" className="bg-blue-600 text-white py-3 px-6 rounded-2xl shadow hover:bg-blue-700">
           Choose Your Strategy
-        </a>
+        </Link>
         <Link to="/core-templates" className="bg-blue-600 text-white py-3 px-6 rounded-2xl shadow hover:bg-blue-700">
           Core Templates
-        </a>
+        </Link>
         <Link to="/phone-techniques" className="bg-blue-600 text-white py-3 px-6 rounded-2xl shadow hover:bg-blue-700">
           Telephone Techniques
-        </a>
+        </Link>
         <Link to="/credit-procedures" className="bg-blue-600 text-white py-3 px-6 rounded-2xl shadow hover:bg-blue-700">
           Setting Up Credit Procedures
-        </a>
+        </Link>
       </div>
 
       {/* 🔽 Explore Templates Section */}
@@ -29,22 +29,22 @@ function HomePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <Link to="/templates/reminder-early" className="border rounded-xl p-4 hover:shadow-lg hover:border-blue-500">
             Early Reminder Letter
-          </a>
+          </Link>
           <Link to="/templates/follow-up-call" className="border rounded-xl p-4 hover:shadow-lg hover:border-blue-500">
             Follow-up Phone Script
-          </a>
+          </Link>
           <Link to="/templates/final-notice" className="border rounded-xl p-4 hover:shadow-lg hover:border-blue-500">
             Final Notice Email
-          </a>
+          </Link>
           <Link to="/templates/payment-plan-offer" className="border rounded-xl p-4 hover:shadow-lg hover:border-blue-500">
             Payment Plan Offer
-          </a>
+          </Link>
           <Link to="/templates/legal-referral" className="border rounded-xl p-4 hover:shadow-lg hover:border-blue-500">
             Referral to Legal
-          </a>
+          </Link>
           <Link to="/templates/thank-you" className="border rounded-xl p-4 hover:shadow-lg hover:border-blue-500">
             Thank You (After Payment)
-          </a>
+          </Link>
         </div>
       </section>
     </main>
